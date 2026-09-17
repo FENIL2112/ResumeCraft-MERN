@@ -1,0 +1,13 @@
+{
+  "name": "resumecraft-mern-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ResumeCraft - MERN Stack Resume Builder with Admin Panel",
+  "type": "module",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  }
+}
